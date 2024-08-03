@@ -1,0 +1,40 @@
+.imgBox {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.849);
+  padding-top: 50px;
+  padding-left: 30px;
+  overflow-x: auto;
+  width: 97.5vw;
+  height: 290px;
+}
+.imgBox::-webkit-scrollbar {
+  background-color: #535353;
+  height: 5px;
+}
+.imgBox::-webkit-scrollbar-thumb {
+  background-color: #1a1a1a;
+}
+
+.imgOriginal {
+  height: 250px;
+  margin-right: 21px;
+}
+.img:hover,
+.imgOriginal:hover {
+  transform: scale(1.15);
+  transition-duration: 0.5s;
+  scroll-snap-align: start;
+}
+
+.title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.849);
+  margin: 0;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+.img {
+  height: 150px;
+  margin-right: 21px;
+  margin-bottom: 50px;
+}

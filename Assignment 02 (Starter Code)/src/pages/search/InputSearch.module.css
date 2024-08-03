@@ -1,0 +1,47 @@
+.container {
+  background-color: rgba(0, 0, 0, 0.849);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  background-color: white;
+  height: 25vh;
+  border-radius: 3px;
+  width: 50vw;
+  position: relative;
+}
+.boxInput {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid rgb(53, 198, 255);
+}
+.input {
+  border: none;
+  font-size: 25px;
+  padding: 20px 20px;
+}
+.btnIcon {
+  background-color: white;
+  border: none;
+  padding: 20px 20px;
+}
+.btnReset {
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  padding: 10px 10px;
+}
+.btn {
+  background-color: rgb(53, 198, 255);
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 10px;
+}
+.box {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}

@@ -1,0 +1,18 @@
+.listFilm {
+  background-color: rgba(0, 0, 0, 0.849);
+}
+.title {
+  margin: 0;
+  color: white;
+  padding-left: 30px;
+}
+.img {
+  height: 240px;
+  margin-right: 21px;
+  margin-bottom: 50px;
+}
+.img:hover {
+  transform: scale(1.15);
+  transition-duration: 0.5s;
+  scroll-snap-align: start;
+}

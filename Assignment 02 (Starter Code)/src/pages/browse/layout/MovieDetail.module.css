@@ -1,0 +1,26 @@
+.boxDetail {
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+  position: fixed;
+  bottom: 0;
+  height: 40vh;
+  width: 95vw;
+  z-index: 0;
+}
+.content {
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.title {
+  border-bottom: 3px solid white;
+  margin-right: 30px;
+  padding-bottom: 30px;
+}
+.text {
+  padding: 0;
+  margin: 0;
+}
